@@ -1,0 +1,287 @@
+
+% This is my curriculum vitae. It was prepared using ConTeXt text processing system.
+% Lizardo Reyna | farliz@disroot.org
+% July 2018
+
+% This program is free software: you can redistribute it and/or modify
+%     it under the terms of the GNU General Public License as published by
+%     the Free Software Foundation, either version 3 of the License, or
+%     (at your option) any later version.
+
+%     This program is distributed in the hope that it will be useful,
+%     but WITHOUT ANY WARRANTY; without even the implied warranty of
+%     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%     GNU General Public License for more details.
+
+%     You should have received a copy of the GNU General Public License
+%     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+
+
+\setuppapersize[A4][A4]
+%\setuppagenumbering[state=stop]
+\setupbodyfont[pagella, 10pt]
+\usecolors[xwi]
+
+
+\setuplayout[
+  header=1.5cm,
+  footer=1.5cm,
+  height=fit,
+  topspace=0.5cm,
+  width=fit,
+  backspace=1cm,
+  rightmargin=0.5cm,
+  leftmargin=0.5cm,
+  leftmargindistance=0pt,
+  rightmargindistance=0pt,
+  grid=yes, columndistance=12pt,
+columns=3]
+
+
+% If you don't have some fonts, they can be replaced for your local fonts
+\definefont[GaraB][name:garamondpremrprobdsubh*default sa 1.3]
+\definefont[Skill][name:WhitneyHTF-BookSC*default sa 1.2]
+\definefont[WhitneyB][name:whitneyhtfbold*default at 18pt]
+\definefont[HeeboBl][name:heeboblack*default sa 1.5]
+\definefont[Senes][name:WarnockPro-BoldItDisp*default sa 1]
+\definefont[Facultad][name:WhitneyHTF-SemiBold*default sa 1]
+\definefont[Fira][name:WhitneyHTF-Light*default sa 1]
+\definefont[titleb][name:whitneyhtfbold*default sa 1.1]
+\setuphead[subject][style=\HeeboBl]
+
+\setupinteraction[state=start, color=darkblue]
+\useURL[me][lreyna@utm.edu.ec]
+\useURL[mee][reyna.utm@gmail.com]
+\setupurl[color=darkslateblue, style=\Fira]
+
+\setupfootertexts[\Fira Julio 2018][\Fira Lizardo Reyna~\cdot~Curriculum Vitae]
+
+\setuppagenumbering[location={lower,middle}, style=\Fira]
+
+\starttext
+
+    \startTABLE[[background=color, frame=off]
+    \bTABLE
+    \bTR \bTD[align=middle,width=15cm ]
+      {\WhitneyB Lizardo Mauricio Reyna Bowen}\\
+  \color[darkgray]{\Skill   Física de suelos~\cdot~Geoinformación}
+  
+  \color[darkgray] {\Facultad Facultad de Ingeniería Agrícola, Universidad Técnica de Manabí}
+
+        {\from[me] \| \from[mee] \| {\Fira + 593 982924637}}
+        \eTD
+        \bTD [align=right]{\externalfigure[yo_][width=2cm]}\\ \Fira C.I. 130835012-1\\ 19 Mayo 1983 \eTD\eTR
+    \eTABLE
+  \stopTABLE
+
+\subject{Edu\color[darkgray]{cación}}
+
+{\titleb Doctor en Ciencias de la Agronomía}\\
+\Fira      
+Facultad de Agronomía\\
+Universidad de Concepción Chile \hfill 2017\\
+{\Senes Registro en SENESCYT:   1521116770}
+
+\blank[big]
+
+{\titleb Master en Geoinformación}\\
+\Fira
+Centro de Levantamientos Aeroespaciales (CLASS)\\
+Universidad Mayor de San Simón, Bolivia \hfill 2011\\
+{\Senes Registro en SENESCYT:   5126R-11-11082}
+
+
+\blank[big]
+
+{\titleb Ingeniero Agrícola}\\
+\Fira        
+Facultad de Ingenierı́a Agrı́cola \\
+Universidad Técnica de Manabı́, Portoviejo \hfill 2006\\
+{\Senes Registro en SENESCYT:   1009-06-722453}
+
+\blank[big]
+\Fira
+      {\titleb Complementario}\\
+   Acreditado como Investigador Auxiliar 1 (SENESCYT)\\  
+   Nivel B2 del idioma Ingles.\\
+   Nivel avanzado en informática (GNU/Linux).
+
+
+\subject{Experiencia \color[darkgray]{profesional}}
+
+{\titleb Universidad Técnica de Manabí, Portoviejo}\hfill Marzo 2012 - Presente\\
+Docente de la Facultad de Ingeniería Agrícola.\\
+Dirección y participación en proyectos de investigación.\\
+Participación en actividades de vinculación y capacitación.\\
+Dirección de tesis de grado.
+
+
+{\titleb Pontificia Universidad Católica del Ecuador, Portoviejo} \hfill Abril – Septiembre 2012\\
+  Docente en la Carrera de Ingeniería Hidráulica.\\
+  Docente del módulo de Hidrología.\\
+  Dirección de tesis.
+
+    
+  {\titleb Organización de las Naciones Unidas para la Agricultura y la Alimentación
+  (FAO)}\hfill Mayo – Octubre 2011\\
+  Elaboración del estudio biofísico y sistema de información geográfica\\ de la cuenca Membrillo, Calceta,
+  Manabí.
+
+
+     
+{\titleb Universidad Técnica Luis Vargas Torres}\hfill Varios Periodos\\
+Docente en la Extensión de Muisne.\\
+Docente del módulo de Ciencias Naturales.
+     
+{\titleb Vida Comercial Agrícola (VICOAGRI)} \hfill Abril – Octubre 2009\\
+Técnico de campo, Manabí\\
+      Diseño de sistemas de riego.\\
+     Levantamientos topográficos.
+
+
+     \subject{Proyectos de \color[darkgray]{investigación}}
+     
+\startitemize[packed]
+\item Estudio Multitemporal del área cultivada de arroz y maíz en el valle del Río
+  Portoviejo. Universidad Técnica de Manabí, 2012. 
+\item Impacto del sistema del cultivo de arroz ({\em Oriza sativa}) sobre las propiedades
+  del suelo en la zona arrocera de Charapotó. Universidad Técnica de Manabí, 2018
+  
+\stopitemize
+
+\subject{Tesis \color[darkgray]{dirigidas}}
+
+        {\bf Pregrado:}
+\Fira        
+\startitemize[packed]
+\item Calibración de número de curva para el cálculo de abstracciones en condiciones de
+  clima tropical. Pontificia Universidad Católica del Ecuador. Portoviejo, 2013. 
+\item Caracterización hidrológica de la cuenca del río Garrapata utilizando modelos de
+  elevación digital.  Pontificia Universidad Católica del Ecuador. Portoviejo, 2013. 
+\item Elaboración de un sistema de información geográfico para la gestión del cultivo de
+  arroz en la comunidades de San Bartolo y Bebedero, Cantón Sucre, Provincia de
+  Manabí. Universidad Técnica de Manabí, 2013.
+\item Evaluación de los modelos digitales de terreno SRTM y AsterGDEM para la extracción
+  de cuencas hidrográficas en el valle del río Portoviejo. Universidad Técnica de Manabí,
+  2018 --- continúa.
+\stopitemize
+
+  {\bf Maestría:}
+  
+\startitemize[packed]
+\item Impacto del sistema del cultivo de arroz sobre las propiedades físicas y carbono orgánico
+  del suelo en la zona arrocera de Charapotó. Universidad Técnica de Manabí, 2018  ---
+  continúa.
+\item Impacto de la mecanización en el cultivo de arroz sobre las propiedades físcas del
+  suelo en la parroquia Charapotó. Universidad Técnica de Manabí, 2018 --- continúa.
+\item Zonificación de suelos cultivados con Banano afectados por la acidez. Universidad
+  Técnica de Manabí, 2018 --- continúa.
+\stopitemize
+
+\subject{Publi\color[darkgray]{caciones}}
+
+
+        {\bf Artı́culos:}
+ \Fira       
+\startitemize[n, packed]
+    \item Reyna-Bowen, L., Reyna-Bowen, M., Reina-Castro, J., \& Hurtado, E. (2017). Zonificación de uni-
+      dades de paisaje en la cuenca del río Khora Tiquipaya (Quillacollo, Bolivia) sustentada en el enfoque
+      de ecología del paisaje. La Técnica: Revista de Las Agrociencias. e-ISSN 2477-8982, 69–80.
+    \item  Reyna-Bowen, L., Reyna-Bowen, M., \& Vera-Montengro, L. (2017). Zonificación del territorio para
+      aplicar labranza de conservación mecanizada utilizando el enfoque de evaluación multicriterio. Revista
+      Ciencias Técnicas Agropecuarias, 26(1), 40–49.
+    \item Reyna, L., Dube, F., Barrera, J. A., \& Zagal, E. (2017). Potential Model Overfitting in Predicting
+      Soil Carbon Content by Visible and Near-Infrared Spectroscopy. Applied Sciences,
+      7(7).\\
+      \goto{https://doi.org/10.3390/app7070708}[url(https://doi.org/10.3390/app7070708)]
+    \item Castro, L. R., Reyna, L., \& Reyna-Bowen, L. (2014). Plan de desarrollo y ordenamiento territorial,
+      como herramienta para el desarrollo sustentable: Estudio de caso en Esmeraldas, Ecuador. La Técnica,
+      (12), 76–89.
+    \item Reyna, L., \& Gossweiler, B. (2011). Segmentación y clasificación de imágenes satelitales para deter-
+      minar la cobertura del suelo. La Técnica, (4), 38–44.
+   \stopitemize
+
+     {\bf Libros:}
+\Fira
+     \startitemize[n, packed, continue]
+
+     \item Desarrollo y Ordenamiento Territorial Estudio de Caso Ecuador, Editorial Académica Española,
+       ISBN-13: 978-3-8484-6175-2. 2014.
+     \item Estudio Biofı́sico de la Cuenca Khora Tiquipaya, Editorial Académica Española,
+       ISBN-13: 978-3-659-05060-2, 2014.
+  \stopitemize
+
+    {\bf Otras publicaciones:}
+ \Fira   
+\startitemize
+  \item  El suelo, un recurso estratégico. El Diario Manabita, 11 de Marzo del 2016.
+\stopitemize
+
+
+\subject{Cursos \color[darkgray]{realizados}}
+
+\startitemize[packed]
+    \item La edafologı́a actual y sus aplicaciones. Universidad de Concepción, Chile 2017
+      Hydrological and water management problems of semi-arid catchment: Floods, irrigation and water
+      quality. Universidad de Concepción, Chile 2015.
+    \item  Evaluación de impactos antropogénicos sobre áreas naturales con énfasis en patrones y procesos edáficos
+      e hı́dricos. Universidad de Concepción, Chile 2014.
+      Sistemas y tecnologı́as apropiadas en saneamiento. Instituto Federal Suizo de la Ciencia y Tecnologı́a
+      del Agua. Atacames, Esmeraldas, 2013.
+    \item   Sistema de Marco Lógico en la práctica. Universidad Técnica de Manabı́, Portoviejo 2013.
+    \item   Seminario internacional en metodologı́a de la investigación. Universidad Tecnica de Manabı́. Porto-
+      viejo, 2013.
+    \item  Diseño de sistemas de riego presurizado aplicado a la agricultura urbana. Portoviejo, 2012.
+    \item  Zonificación ecológica y económica. CISAS, FAO, CONCOPE, Lago Agrio, 2011.
+    \item  Teledetección óptica y radiometrı́a. Comisión Nacional de Investigación y Desarrollo Aeroespacial.
+      Perú 2008.
+    \item  XX Curso de técnicas de riego y gestión del regadı́o. CENTER, Madrid, España, 2008.
+    \item  Certificacion Forestal con Enfasis en Babu. INBAR, Portoviejo, 2008.
+\stopitemize
+
+
+\subject{Conferencias y \color[darkgray]{cursos impartidos}}
+
+\startitemize[packed]
+
+    \item Tecnologı́as para el estudio de suelos. Alternativas para impulsar el desarrollo agropecuario de Manabı́,
+      después del 16 A. Universidad Técnica de Manabı́. Santa Ana, 2016
+    \item  Clasificación de imágenes satelitales. Segundo diálogo nacional sobre Desertificación, Degradación de
+      Tierras y Sequı́as. Ministerio del Ambiente, Chimborazo, 2012.
+    \item  Sistemas de Información Geográfica. Universidad Técnica de Manabı́. Portoviejo, 2012
+    \item  Sistemas de Posicionamiento Global. Técnica de Manabı́. Portoviejo, 2012
+    \item  Teledetección como herramienta para el manejo de recursos naturales. Tercer diálogo nacional sobre
+      Desertificación, Degradación de Tierras y Sequı́as. Portoviejo, 2012.
+    \item Evaluación de inversiones para el sector agroalimentario de Ecuador, FAO, Quito, 2011.
+    \item  Aplicación de sistemas de información geográfica y teledetección. Servicio Local de Acueductos y Al-
+      cantarillados. Bolivia, 2010.
+   \stopitemize
+
+
+   \subject{Dignidades y \color[darkgray]{reconocimientos}}
+
+
+   \startitemize[packed]
+  \item Coodinador del Departamento de Ciencas Agrı́colas. Universidad Técnica de Manabı́, 2018.
+  \item    Reconocimiento por haber culminado los estudios doctorales. Colegio Regional de Ingenieros Agrı́colas
+     del Litoral. Portoviejo, 2018.
+   \item   Reconocimiento al primer graduado del programa de Doctorado en Ciencias de la Agronomı́a, Universidad de Concepción, Chile, 2017.
+   \stopitemize
+
+
+   \subject{Otras \color[darkgray]{actividades}}
+
+   \startitemize[packed]
+       \item  Evento científico {\em Científicos en la Rotonda}, Portoviejo, Noviembre 2017.
+       \item  Editor de la revista {\em International Journal of College and University}, 2017.
+       \item  Evento de difusión científica. {\em Feria nacional de Ciencia y Tecnología}. Quito, Diciembre 2009.
+       \stopitemize
+
+       
+%        \vfill
+%        \switchtobodyfont[9pt]
+%        \Fira
+% \hfill \color[darkgray]{Este documento fué creado con \CONTEXT ~~ \contextversion}
+\stoptext
+

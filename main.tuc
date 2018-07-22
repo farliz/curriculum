@@ -1,0 +1,927 @@
+local utilitydata = { }
+
+utilitydata.comment={
+ ["escape"]="[===[ ... ]===]",
+ ["file"]="main",
+ ["format"]="cont-en",
+ ["stamp"]="2018.04.19 15:53",
+ ["version"]=1.3,
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.checksums={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.collected={
+ ["macros"]={},
+ ["randomseed"]=0.84486394422129,
+ ["sectionblockorder"]={},
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.structure then utilitydata.job.structure = { } end
+
+utilitydata.job.structure.collected={
+ ["branches"]={},
+ ["name"]="",
+ ["type"]="text",
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.positions then utilitydata.job.positions = { } end
+
+utilitydata.job.positions.collected={
+ ["p:1"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=1,
+  ["x"]=1864679,
+  ["y"]=45294474,
+ },
+ ["p:10"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=1,
+  ["x"]=1864679,
+  ["y"]=6591572,
+ },
+ ["p:11"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=47764872,
+ },
+ ["p:12"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=46941406,
+ },
+ ["p:13"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=2,
+  ["x"]=1864679,
+  ["y"]=40353678,
+ },
+ ["p:14"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=38706746,
+ },
+ ["p:15"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=37059814,
+ },
+ ["p:16"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=35412882,
+ },
+ ["p:17"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=33765950,
+ },
+ ["p:18"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=2,
+  ["x"]=1864679,
+  ["y"]=31295552,
+ },
+ ["p:19"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=29648620,
+ },
+ ["p:2"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=1,
+  ["x"]=1864679,
+  ["y"]=39530212,
+ },
+ ["p:20"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=28001688,
+ },
+ ["p:21"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=26354756,
+ },
+ ["p:22"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=2,
+  ["x"]=1864679,
+  ["y"]=20590494,
+ },
+ ["p:23"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=18943562,
+ },
+ ["p:24"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=16473164,
+ },
+ ["p:25"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=14826232,
+ },
+ ["p:26"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=12355834,
+ },
+ ["p:27"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=10708902,
+ },
+ ["p:28"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=2,
+  ["x"]=1864679,
+  ["y"]=8238504,
+ },
+ ["p:29"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=6591572,
+ },
+ ["p:3"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=1,
+  ["x"]=1864679,
+  ["y"]=35412882,
+ },
+ ["p:30"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=2,
+  ["x"]=2847179,
+  ["y"]=4944640,
+ },
+ ["p:31"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=3,
+  ["x"]=1864679,
+  ["y"]=51058736,
+ },
+ ["p:32"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=49411804,
+ },
+ ["p:33"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=43647542,
+ },
+ ["p:34"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=42000610,
+ },
+ ["p:35"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=39530212,
+ },
+ ["p:36"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=38706746,
+ },
+ ["p:37"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=37883280,
+ },
+ ["p:38"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=37059814,
+ },
+ ["p:39"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=36236348,
+ },
+ ["p:4"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=1,
+  ["x"]=1864679,
+  ["y"]=31295552,
+ },
+ ["p:40"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=35412882,
+ },
+ ["p:41"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=34589416,
+ },
+ ["p:42"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=28825154,
+ },
+ ["p:43"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=27178222,
+ },
+ ["p:44"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=25531290,
+ },
+ ["p:45"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=24707824,
+ },
+ ["p:46"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=23884358,
+ },
+ ["p:47"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=22237426,
+ },
+ ["p:48"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=21413960,
+ },
+ ["p:49"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=15649698,
+ },
+ ["p:5"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=1,
+  ["x"]=1864679,
+  ["y"]=27178222,
+ },
+ ["p:50"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=14826232,
+ },
+ ["p:51"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=13179300,
+ },
+ ["p:52"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=6591572,
+ },
+ ["p:53"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=5768106,
+ },
+ ["p:54"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=4944640,
+ },
+ ["p:6"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=1,
+  ["x"]=1864679,
+  ["y"]=18943562,
+ },
+ ["p:7"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=1,
+  ["x"]=1864679,
+  ["y"]=14826232,
+ },
+ ["p:8"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=1,
+  ["x"]=1864679,
+  ["y"]=11532368,
+ },
+ ["p:9"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["p"]=1,
+  ["x"]=1864679,
+  ["y"]=9061970,
+ },
+ ["page:1"]={
+  ["h"]=55380990,
+  ["w"]=39158276,
+ },
+ ["text:1"]={
+  ["h"]=47922274,
+  ["p"]=1,
+  ["w"]=35428918,
+  ["x"]=1864679,
+  ["y"]=3729358,
+ },
+ ["text:2"]={
+  ["h"]=47922274,
+  ["p"]=2,
+  ["w"]=35428918,
+  ["x"]=1864679,
+  ["y"]=3729358,
+ },
+ ["text:3"]={
+  ["h"]=47922274,
+  ["p"]=3,
+  ["w"]=35428918,
+  ["x"]=1864679,
+  ["y"]=3729358,
+ },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.passes then utilitydata.job.passes = { } end
+
+utilitydata.job.passes.collected={
+ ["itemgroup:itemize:1"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:10"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:2"]={
+  { 4, 0 },
+ },
+ ["itemgroup:itemize:3"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:4"]={
+  { 5, 0 },
+ },
+ ["itemgroup:itemize:5"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:6"]={
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:7"]={
+  { 9, 0 },
+ },
+ ["itemgroup:itemize:8"]={
+  { 7, 0 },
+ },
+ ["itemgroup:itemize:9"]={
+  { 3, 0 },
+ },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.datasets then utilitydata.job.datasets = { } end
+
+utilitydata.job.datasets.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
+
+utilitydata.job.pagestates.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.specials then utilitydata.structures.specials = { } end
+
+utilitydata.structures.specials.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.counters then utilitydata.structures.counters = { } end
+
+utilitydata.structures.counters.collected={
+ ["chemical"]={
+  { 0 },
+ },
+ ["combination"]={
+  { 0 },
+ },
+ ["endnote"]={
+  { 0 },
+ },
+ ["figure"]={
+  { 0 },
+ },
+ ["footnote"]={
+  { 0 },
+ },
+ ["formula"]={
+  { 0 },
+ },
+ ["graphic"]={
+  { 0 },
+ },
+ ["intermezzo"]={
+  { 0 },
+ },
+ ["itemgroup:itemize"]={
+  { 0, 2, 4, 3, 7, 1, 9, 7, 3, 3 },
+ },
+ ["linenote"]={
+  { 0 },
+ },
+ ["paragraph"]={
+  { 0 },
+ },
+ ["realpage"]={
+  { 3 },
+ },
+ ["subpage"]={
+  { 1 },
+ },
+ ["table"]={
+  { 0 },
+ },
+ ["userpage"]={
+  { 3 },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.lists then utilitydata.structures.lists = { } end
+
+utilitydata.structures.lists.collected={
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=1,
+   ["realpage"]=1,
+   ["section"]=0,
+   ["x"]=1864679,
+   ["y"]=40946574,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Edu\\color [darkgray]{cación}",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=2,
+   ["realpage"]=1,
+   ["section"]=0,
+   ["x"]=1864679,
+   ["y"]=20359924,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Experiencia \\color [darkgray]{profesional}",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=3,
+   ["realpage"]=2,
+   ["section"]=0,
+   ["x"]=1864679,
+   ["y"]=49181234,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Proyectos de \\color [darkgray]{investigación}",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=4,
+   ["realpage"]=2,
+   ["section"]=0,
+   ["x"]=1864679,
+   ["y"]=41770040,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Tesis \\color [darkgray]{dirigidas}",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=5,
+   ["realpage"]=2,
+   ["section"]=0,
+   ["x"]=1864679,
+   ["y"]=22006856,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Publi\\color [darkgray]{caciones}",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=6,
+   ["realpage"]=3,
+   ["section"]=0,
+   ["x"]=1864679,
+   ["y"]=45063904,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Cursos \\color [darkgray]{realizados}",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=7,
+   ["realpage"]=3,
+   ["section"]=0,
+   ["x"]=1864679,
+   ["y"]=30241516,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Conferencias y \\color [darkgray]{cursos impartidos}",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=8,
+   ["realpage"]=3,
+   ["section"]=0,
+   ["x"]=1864679,
+   ["y"]=17066060,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Dignidades y \\color [darkgray]{reconocimientos}",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=9,
+   ["realpage"]=3,
+   ["section"]=0,
+   ["x"]=1864679,
+   ["y"]=8007934,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Otras \\color [darkgray]{actividades}",
+  },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.pages then utilitydata.structures.pages = { } end
+
+utilitydata.structures.pages.collected={
+ {
+  ["block"]="bodypart",
+  ["number"]=1,
+  ["numberdata"]=4,
+  ["prefixdata"]=5,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=2,
+  ["numberdata"]=4,
+  ["prefixdata"]=5,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=3,
+  ["numberdata"]=4,
+  ["prefixdata"]=5,
+  ["state"]="start",
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.referred={
+ { 1, 5 },
+ { 2, 7 },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.objects then utilitydata.job.objects = { } end
+
+utilitydata.job.objects.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.synonyms then utilitydata.structures.synonyms = { } end
+
+utilitydata.structures.synonyms.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.registers then utilitydata.structures.registers = { } end
+
+utilitydata.structures.registers.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.blocks then utilitydata.structures.blocks = { } end
+
+utilitydata.structures.blocks.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.files then utilitydata.job.files = { } end
+
+utilitydata.job.files.collected={
+}
+
+if not utilitydata.publications then utilitydata.publications = { } end
+
+utilitydata.publications.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.fileobjreferences then utilitydata.job.fileobjreferences = { } end
+
+utilitydata.job.fileobjreferences.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.embedded then utilitydata.job.embedded = { } end
+
+utilitydata.job.embedded.collected={
+}
+
+utilitydata.job.packed={
+ ["index"]={
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="section",
+   ["level"]=3,
+   ["name"]="subject",
+   ["nolist"]=true,
+  },
+  { 0, 0, 0 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="en",
+   ["numbers"]=2,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["conversionset"]="pagenumber",
+  },
+  {
+   ["connector"]="–",
+   ["prefix"]="no",
+   ["set"]="part",
+  },
+ },
+ ["keys"]={
+  ["directives"]=true,
+  ["metadata"]=true,
+  ["numberdata"]=true,
+  ["numbers"]=true,
+  ["pagedata"]=true,
+  ["prefixdata"]=true,
+  ["processors"]=true,
+  ["sectiondata"]=true,
+  ["specification"]=true,
+ },
+ ["skip"]={
+  ["datasets"]=true,
+  ["userdata"]=true,
+ },
+ ["version"]=1.02,
+}
+
+return utilitydata
