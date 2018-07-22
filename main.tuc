@@ -286,7 +286,7 @@ utilitydata.job.positions.collected={
   ["ls"]=982500,
   ["p"]=3,
   ["x"]=2847179,
-  ["y"]=39530212,
+  ["y"]=40353678,
  },
  ["p:36"]={
   ["d"]=230570,
@@ -357,7 +357,7 @@ utilitydata.job.positions.collected={
   ["ls"]=982500,
   ["p"]=3,
   ["x"]=2847179,
-  ["y"]=28825154,
+  ["y"]=33765950,
  },
  ["p:43"]={
   ["d"]=230570,
@@ -366,7 +366,7 @@ utilitydata.job.positions.collected={
   ["ls"]=982500,
   ["p"]=3,
   ["x"]=2847179,
-  ["y"]=27178222,
+  ["y"]=28001688,
  },
  ["p:44"]={
   ["d"]=230570,
@@ -375,7 +375,7 @@ utilitydata.job.positions.collected={
   ["ls"]=982500,
   ["p"]=3,
   ["x"]=2847179,
-  ["y"]=25531290,
+  ["y"]=26354756,
  },
  ["p:45"]={
   ["d"]=230570,
@@ -402,7 +402,7 @@ utilitydata.job.positions.collected={
   ["ls"]=982500,
   ["p"]=3,
   ["x"]=2847179,
-  ["y"]=22237426,
+  ["y"]=23060892,
  },
  ["p:48"]={
   ["d"]=230570,
@@ -420,7 +420,7 @@ utilitydata.job.positions.collected={
   ["ls"]=982500,
   ["p"]=3,
   ["x"]=2847179,
-  ["y"]=15649698,
+  ["y"]=20590494,
  },
  ["p:5"]={
   ["d"]=230570,
@@ -446,7 +446,7 @@ utilitydata.job.positions.collected={
   ["ls"]=982500,
   ["p"]=3,
   ["x"]=2847179,
-  ["y"]=13179300,
+  ["y"]=14002766,
  },
  ["p:52"]={
   ["d"]=230570,
@@ -455,7 +455,7 @@ utilitydata.job.positions.collected={
   ["ls"]=982500,
   ["p"]=3,
   ["x"]=2847179,
-  ["y"]=6591572,
+  ["y"]=12355834,
  },
  ["p:53"]={
   ["d"]=230570,
@@ -474,6 +474,15 @@ utilitydata.job.positions.collected={
   ["p"]=3,
   ["x"]=2847179,
   ["y"]=4944640,
+ },
+ ["p:55"]={
+  ["d"]=230570,
+  ["h"]=592896,
+  ["hs"]=35428918,
+  ["ls"]=982500,
+  ["p"]=3,
+  ["x"]=2847179,
+  ["y"]=4121174,
  },
  ["p:6"]={
   ["d"]=230570,
@@ -560,7 +569,7 @@ utilitydata.job.passes.collected={
   { 1, 0 },
  },
  ["itemgroup:itemize:7"]={
-  { 9, 0 },
+  { 10, 0 },
  },
  ["itemgroup:itemize:8"]={
   { 7, 0 },
@@ -617,7 +626,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 2, 4, 3, 7, 1, 9, 7, 3, 3 },
+  { 0, 2, 4, 3, 7, 1, 10, 7, 3, 3 },
  },
  ["linenote"]={
   { 0 },
@@ -748,7 +757,7 @@ utilitydata.structures.lists.collected={
    ["realpage"]=3,
    ["section"]=0,
    ["x"]=1864679,
-   ["y"]=30241516,
+   ["y"]=29418050,
   },
   ["titledata"]={
    ["label"]="section",
@@ -764,7 +773,7 @@ utilitydata.structures.lists.collected={
    ["realpage"]=3,
    ["section"]=0,
    ["x"]=1864679,
-   ["y"]=17066060,
+   ["y"]=16242594,
   },
   ["titledata"]={
    ["label"]="section",
@@ -780,7 +789,7 @@ utilitydata.structures.lists.collected={
    ["realpage"]=3,
    ["section"]=0,
    ["x"]=1864679,
-   ["y"]=8007934,
+   ["y"]=7184468,
   },
   ["titledata"]={
    ["label"]="section",

@@ -16,9 +16,9 @@ open source     > level 3, order 5, name '/home/farliz/context/tex/texmf-context
 close source    > level 3, order 5, name '/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/colo-imp-xwi.mkiv'
 colors          > system 'xwi' is loaded
 structure       > sectioning > subject @ level 3 : 0.0.0 -> Edu\color [darkgray]{cación}
-fonts           > defining > font 'WarnockPro-BoldItDisp', feature 'locl', script 'grek', no language 'dflt'
 fonts           > defining > font 'WarnockPro-BoldItDisp', feature 'locl', script 'cyrl', no language 'dflt'
 fonts           > defining > font 'WarnockPro-BoldItDisp', feature 'locl', script 'latn', no language 'dflt'
+fonts           > defining > font 'WarnockPro-BoldItDisp', feature 'locl', script 'grek', no language 'dflt'
 structure       > sectioning > subject @ level 3 : 0.0.0 -> Experiencia \color [darkgray]{profesional}
 structure       > sectioning > subject @ level 3 : 0.0.0 -> Proyectos de \color [darkgray]{investigación}
 fonts           > checking > char ́ (U+00301) in font 'WhitneyHTF-Light' with id 12: missing
@@ -103,8 +103,8 @@ modules         > stop used modules
 
 fonts           > start missing characters: /home/farliz/.fonts/whitney/WhitneyHTF-Light.otf
 
-fonts           >   76  U+00301  ́  COMBINING ACUTE ACCENT
-fonts           >    5  U+00303  ̃  COMBINING TILDE
+fonts           >   10  U+00301  ́  COMBINING ACUTE ACCENT
+fonts           >    3  U+00303  ̃  COMBINING TILDE
 
 fonts           > stop missing characters
 
@@ -112,27 +112,27 @@ fonts           > stop missing characters
 mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: /home/farliz/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e
 mkiv lua stats  > resource resolver: loadtime 0.008 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 24 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 424 modules (0.248 sec), 93 tables (0.017 sec), 517 chunks (0.265 sec)
+mkiv lua stats  > stored bytecode data: 424 modules (0.249 sec), 93 tables (0.016 sec), 517 chunks (0.265 sec)
 mkiv lua stats  > traced context: maxstack: 1305, freed: 2, unreachable: 1303
 mkiv lua stats  > cleaned up reserved nodes: 65 nodes, 9 lists of 455
-mkiv lua stats  > node memory usage: 2 glue, 2 kern, 3 penalty, 15 attribute, 50 glue_spec, 4 attribute_list, 2 temp, 2 user_defined, 4 pdf_setmatrix, 2 pdf_save, 2 pdf_restore
-mkiv lua stats  > node list callback tasks: 7 unique task lists, 8 instances (re)created, 712 calls
-mkiv lua stats  > h-node processing time: 0.031 seconds including kernel
+mkiv lua stats  > node memory usage: 4 glue, 2 kern, 3 penalty, 21 attribute, 50 glue_spec, 5 attribute_list, 2 temp, 2 user_defined, 4 pdf_setmatrix, 2 pdf_save, 2 pdf_restore
+mkiv lua stats  > node list callback tasks: 7 unique task lists, 8 instances (re)created, 719 calls
+mkiv lua stats  > h-node processing time: 0.030 seconds including kernel
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.004 seconds saving, 0.002 seconds loading
-mkiv lua stats  > callbacks: internal: 2425, file: 867, direct: 0, late: 0, function 0, total: 3292 (1646 per page)
+mkiv lua stats  > jobdata time: 0.005 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: internal: 2368, file: 865, direct: 0, late: 0, function 0, total: 3233 (1617 per page)
 mkiv lua stats  > randomizer: resumed with value 0.84486394422129
-mkiv lua stats  > positions: 55 collected, 55 regular, 0 special
+mkiv lua stats  > positions: 56 collected, 56 regular, 0 special
 mkiv lua stats  > loaded patterns: en::2, load time: 0.000
 mkiv lua stats  > interactive elements: 3 references, 9 destinations
 mkiv lua stats  > result saved in file: main.pdf, compresslevel 3, objectcompresslevel 3
 mkiv lua stats  > loaded fonts: 10 files: heebo-black.ttf, warnockpro-bolditdisp.otf, whitneyhtf-bold.otf, whitneyhtf-booksc.otf, whitneyhtf-light.otf, whitneyhtf-semibold.otf, texgyrepagella-math.otf, texgyrepagella-bold.otf, texgyrepagella-italic.otf, texgyrepagella-regular.otf
-mkiv lua stats  > font engine: otf 3.103, afm 1.513, tfm 1.000, 16 instances, 4 shared in backend, 3 common vectors, 1 common hashes, load time 0.284 seconds 
+mkiv lua stats  > font engine: otf 3.103, afm 1.513, tfm 1.000, 16 instances, 4 shared in backend, 3 common vectors, 1 common hashes, load time 0.282 seconds 
 mkiv lua stats  > graphics processing time: 0.002 seconds including tex, 3 processed images, 1 unique asked, 0 bad names
 mkiv lua stats  > pdf annotations: 3 links (3 unique), 0 special
 mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: texmf-linux-64
 mkiv lua stats  > used engine: luatex version 1.07 with functionality level 6661, banner: this is luatex, version 1.07.0 (tex live 2018)
 mkiv lua stats  > control sequences: 47103 of 65536 + 100000
 mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 87 MB (ctx: 87 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.989 seconds, 3 processed pages, 3 shipped pages, 3.033 pages/second
+mkiv lua stats  > runtime: 0.997 seconds, 3 processed pages, 3 shipped pages, 3.009 pages/second
 
