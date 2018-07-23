@@ -1,6 +1,6 @@
 open source     > level 1, order 1, name '/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv'
 system          > 
-system          > ConTeXt  ver: 2018.04.19 15:53 MKIV beta  fmt: 2018.4.20  int: english/english
+system          > ConTeXt  ver: 2018.03.15 15:27 MKIV beta  fmt: 2018.3.16  int: english/english
 system          > 
 system          > 'cont-new.mkiv' loaded
 open source     > level 2, order 2, name '/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv'
@@ -15,24 +15,41 @@ close source    > level 3, order 4, name '/home/farliz/context/tex/texmf-context
 open source     > level 3, order 5, name '/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/colo-imp-xwi.mkiv'
 close source    > level 3, order 5, name '/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/colo-imp-xwi.mkiv'
 colors          > system 'xwi' is loaded
-structure       > sectioning > subject @ level 3 : 0.0.0 -> Edu\color [darkgray]{cación}
-fonts           > defining > font 'WarnockPro-BoldItDisp', feature 'locl', script 'cyrl', no language 'dflt'
-fonts           > defining > font 'WarnockPro-BoldItDisp', feature 'locl', script 'latn', no language 'dflt'
-fonts           > defining > font 'WarnockPro-BoldItDisp', feature 'locl', script 'grek', no language 'dflt'
-structure       > sectioning > subject @ level 3 : 0.0.0 -> Experiencia \color [darkgray]{profesional}
-structure       > sectioning > subject @ level 3 : 0.0.0 -> Proyectos de \color [darkgray]{investigación}
+structure       > sectioning > subject @ level 3 : 0.0.0 -> Edu\color [darkgray]{cación}\thinrule 
+structure       > sectioning > subject @ level 3 : 0.0.0 -> Experiencia \color [darkgray]{profesional}\thinrule 
 fonts           > checking > char ́ (U+00301) in font 'WhitneyHTF-Light' with id 12: missing
-fonts           > checking > char ̃ (U+00303) in font 'WhitneyHTF-Light' with id 12: missing
 backend         > xmp > using file '/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml'
 pages           > flushing realpage 1, userpage 1, subpage 1
-structure       > sectioning > subject @ level 3 : 0.0.0 -> Tesis \color [darkgray]{dirigidas}
-structure       > sectioning > subject @ level 3 : 0.0.0 -> Publi\color [darkgray]{caciones}
+structure       > sectioning > subject @ level 3 : 0.0.0 -> Proyectos de \color [darkgray]{investigación}\thinrule 
+structure       > sectioning > subject @ level 3 : 0.0.0 -> Tesis \color [darkgray]{dirigidas}\thinrule 
+structure       > sectioning > subject @ level 3 : 0.0.0 -> Publi\color [darkgray]{caciones}\thinrule 
 pages           > flushing realpage 2, userpage 2
-structure       > sectioning > subject @ level 3 : 0.0.0 -> Cursos \color [darkgray]{realizados}
-structure       > sectioning > subject @ level 3 : 0.0.0 -> Conferencias y \color [darkgray]{cursos impartidos}
-structure       > sectioning > subject @ level 3 : 0.0.0 -> Dignidades y \color [darkgray]{reconocimientos}
-structure       > sectioning > subject @ level 3 : 0.0.0 -> Otras \color [darkgray]{actividades}
+structure       > sectioning > subject @ level 3 : 0.0.0 -> Cursos \color [darkgray]{realizados}\thinrule 
+structure       > sectioning > subject @ level 3 : 0.0.0 -> Conferencias y \color [darkgray]{cursos impartidos}\thinrule 
+
+Overfull \hbox (5.8625pt too wide) in paragraph at lines 251--253
+ [][][][] <12: /home/farliz/.fonts/whitney/WhitneyHTF-Light @ 11.0pt> Clasi-fi-cación de imágenes satelitales. Se-gundo diálogo na-cional so-bre De-ser-ti-fi-cación, Degradación de Tier-ras y Sequías.
+
+\hbox(9.95848+3.87273)x540.60239, glue set - 1.0, direction TLT
+.\glue(\leftskip) 16.50238
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\latelua0 <function 464>
+.\hbox(9.95848+3.87273)x0.0, glue set - 16.50238fil, direction TLT
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\hbox(9.95848+3.87273)x16.50238, direction TLT
+...\hbox(9.95848+3.87273)x16.50238, glue set 10.34149fil, direction TLT []
+.etc.
+
+fonts           > checking > char ̃ (U+00303) in font 'WhitneyHTF-Light' with id 12: missing
 pages           > flushing realpage 3, userpage 3
+structure       > sectioning > subject @ level 3 : 0.0.0 -> Dignidades y \color [darkgray]{reconocimientos}\thinrule 
+structure       > sectioning > subject @ level 3 : 0.0.0 -> Otras \color [darkgray]{actividades}\thinrule 
+pages           > flushing realpage 4, userpage 4
 close source    > level 2, order 5, name '/home/farliz/curriculum/main.tex'
 close source    > level 1, order 5, name '/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv'
 
@@ -47,28 +64,29 @@ system          > start used files
 
 system          >    1: filename=char-prv.lua filetype=tex format=tex foundname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/char-prv.lua fullname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/char-prv.lua usedmethod=database
 system          >    2: filename=cont-yes.mkiv filetype=tex foundname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv fullname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
-system          >    3: filename=publ-imp-default.lua filetype=scripts foundname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua fullname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+system          >    3: filename=publ-imp-default.lua filetype=lua foundname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua fullname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
 system          >    4: filename=cont-new.mkiv filetype=tex foundname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv fullname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
-system          >    5: filename=lang-exc.lua filetype=scripts foundname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua fullname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua usedmethod=database
-system          >    6: filename=lang-us.lua filetype=scripts foundname=/home/farliz/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua fullname=/home/farliz/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+system          >    5: filename=lang-exc.lua filetype=lua foundname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua fullname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua usedmethod=database
+system          >    6: filename=lang-us.lua filetype=lua foundname=/home/farliz/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua fullname=/home/farliz/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
 system          >    7: filename=/home/farliz/curriculum/main.tex foundname=/home/farliz/curriculum/main.tex fullname=/home/farliz/curriculum/main.tex usedmethod=direct
 system          >    8: filename=type-imp-texgyre.mkiv filetype=tex foundname=/home/farliz/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv fullname=/home/farliz/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv usedmethod=database
 system          >    9: filename=lm.lfg filetype=tex foundname=/home/farliz/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg fullname=/home/farliz/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg usedmethod=database
 system          >   10: filename=texgyrepagella-regular filetype=otf format=otf foundname=/home/farliz/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-regular.otf fullname=/home/farliz/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-regular.otf usedmethod=database
 system          >   11: filename=texgyrepagella-math.otf filetype=otf format=otf foundname=/home/farliz/context/tex/texmf/fonts/opentype/public/tex-gyre-math/texgyrepagella-math.otf fullname=/home/farliz/context/tex/texmf/fonts/opentype/public/tex-gyre-math/texgyrepagella-math.otf usedmethod=database
 system          >   12: filename=pagella-math.lfg filetype=tex foundname=/home/farliz/context/tex/texmf-context/tex/context/fonts/mkiv/pagella-math.lfg fullname=/home/farliz/context/tex/texmf-context/tex/context/fonts/mkiv/pagella-math.lfg usedmethod=database
-system          >   13: filename=schola-math.lfg filetype=tex foundname=/home/farliz/context/tex/texmf-context/tex/context/fonts/mkiv/schola-math.lfg fullname=/home/farliz/context/tex/texmf-context/tex/context/fonts/mkiv/schola-math.lfg usedmethod=database
-system          >   14: filename=colo-imp-xwi.mkiv filetype=tex foundname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/colo-imp-xwi.mkiv fullname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/colo-imp-xwi.mkiv usedmethod=database
-system          >   15: filename=/home/farliz/.fonts/whitney/WhitneyHTF-Bold.otf format=otf foundname=/home/farliz/.fonts/whitney/WhitneyHTF-Bold.otf fullname=/home/farliz/.fonts/whitney/WhitneyHTF-Bold.otf usedmethod=direct
-system          >   16: filename=/home/farliz/.fonts/whitney/WhitneyHTF-BookSC.otf format=otf foundname=/home/farliz/.fonts/whitney/WhitneyHTF-BookSC.otf fullname=/home/farliz/.fonts/whitney/WhitneyHTF-BookSC.otf usedmethod=direct
-system          >   17: filename=/home/farliz/.fonts/whitney/WhitneyHTF-SemiBold.otf format=otf foundname=/home/farliz/.fonts/whitney/WhitneyHTF-SemiBold.otf fullname=/home/farliz/.fonts/whitney/WhitneyHTF-SemiBold.otf usedmethod=direct
-system          >   18: filename=texgyrepagella-bold filetype=otf format=otf foundname=/home/farliz/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-bold.otf fullname=/home/farliz/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-bold.otf usedmethod=database
-system          >   19: filename=/home/farliz/.fonts/whitney/WhitneyHTF-Light.otf format=otf foundname=/home/farliz/.fonts/whitney/WhitneyHTF-Light.otf fullname=/home/farliz/.fonts/whitney/WhitneyHTF-Light.otf usedmethod=direct
-system          >   20: filename=/home/farliz/curriculum/yo_.jpg format=tex foundname=/home/farliz/curriculum/yo_.jpg fullname=/home/farliz/curriculum/yo_.jpg usedmethod=direct
-system          >   21: filename=/home/farliz/.fonts/Heebo/Heebo-Black.ttf format=ttf foundname=/home/farliz/.fonts/Heebo/Heebo-Black.ttf fullname=/home/farliz/.fonts/Heebo/Heebo-Black.ttf usedmethod=direct
-system          >   22: filename=/home/farliz/.fonts/warnock-pro/WarnockPro-BoldItDisp.otf format=otf foundname=/home/farliz/.fonts/warnock-pro/WarnockPro-BoldItDisp.otf fullname=/home/farliz/.fonts/warnock-pro/WarnockPro-BoldItDisp.otf usedmethod=direct
-system          >   23: filename=texgyrepagella-italic filetype=otf format=otf foundname=/home/farliz/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-italic.otf fullname=/home/farliz/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-italic.otf usedmethod=database
-system          >   24: filename=lpdf-pdx.xml filetype=tex foundname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml fullname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+system          >   13: filename=colo-imp-xwi.mkiv filetype=tex foundname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/colo-imp-xwi.mkiv fullname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/colo-imp-xwi.mkiv usedmethod=database
+system          >   14: filename=/home/farliz/.fonts/whitney/WhitneyHTF-Bold.otf format=otf foundname=/home/farliz/.fonts/whitney/WhitneyHTF-Bold.otf fullname=/home/farliz/.fonts/whitney/WhitneyHTF-Bold.otf usedmethod=direct
+system          >   15: filename=/home/farliz/.fonts/whitney/WhitneyHTF-BookSC.otf format=otf foundname=/home/farliz/.fonts/whitney/WhitneyHTF-BookSC.otf fullname=/home/farliz/.fonts/whitney/WhitneyHTF-BookSC.otf usedmethod=direct
+system          >   16: filename=/home/farliz/.fonts/whitney/WhitneyHTF-SemiBold.otf format=otf foundname=/home/farliz/.fonts/whitney/WhitneyHTF-SemiBold.otf fullname=/home/farliz/.fonts/whitney/WhitneyHTF-SemiBold.otf usedmethod=direct
+system          >   17: filename=texgyrepagella-bold filetype=otf format=otf foundname=/home/farliz/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-bold.otf fullname=/home/farliz/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-bold.otf usedmethod=database
+system          >   18: filename=/home/farliz/.fonts/FiraSans/FiraSans-Medium.otf format=otf foundname=/home/farliz/.fonts/FiraSans/FiraSans-Medium.otf fullname=/home/farliz/.fonts/FiraSans/FiraSans-Medium.otf usedmethod=direct
+system          >   19: filename=/home/farliz/curriculum/yo.png format=tex foundname=/home/farliz/curriculum/yo.png fullname=/home/farliz/curriculum/yo.png usedmethod=direct
+system          >   20: filename=/home/farliz/.fonts/Heebo/Heebo-Black.ttf format=ttf foundname=/home/farliz/.fonts/Heebo/Heebo-Black.ttf fullname=/home/farliz/.fonts/Heebo/Heebo-Black.ttf usedmethod=direct
+system          >   21: filename=/home/farliz/.fonts/whitney/WhitneyHTF-Light.otf format=otf foundname=/home/farliz/.fonts/whitney/WhitneyHTF-Light.otf fullname=/home/farliz/.fonts/whitney/WhitneyHTF-Light.otf usedmethod=direct
+system          >   22: filename=/home/farliz/.fonts/whitney/WhitneyHTF-SemiBoldItalic.otf format=otf foundname=/home/farliz/.fonts/whitney/WhitneyHTF-SemiBoldItalic.otf fullname=/home/farliz/.fonts/whitney/WhitneyHTF-SemiBoldItalic.otf usedmethod=direct
+system          >   23: filename=lpdf-pdx.xml filetype=tex foundname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml fullname=/home/farliz/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+system          >   24: filename=texgyrepagella-italic filetype=otf format=otf foundname=/home/farliz/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-italic.otf fullname=/home/farliz/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-italic.otf usedmethod=database
+system          >   25: filename=/home/farliz/.fonts/whitney/WhitneyHTF-SemiBoldSC.otf format=otf foundname=/home/farliz/.fonts/whitney/WhitneyHTF-SemiBoldSC.otf fullname=/home/farliz/.fonts/whitney/WhitneyHTF-SemiBoldSC.otf usedmethod=direct
 
 system          > stop used files
 
@@ -104,35 +122,35 @@ modules         > stop used modules
 fonts           > start missing characters: /home/farliz/.fonts/whitney/WhitneyHTF-Light.otf
 
 fonts           >   10  U+00301  ́  COMBINING ACUTE ACCENT
-fonts           >    3  U+00303  ̃  COMBINING TILDE
+fonts           >    2  U+00303  ̃  COMBINING TILDE
 
 fonts           > stop missing characters
 
 
 mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: /home/farliz/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e
-mkiv lua stats  > resource resolver: loadtime 0.008 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 24 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 424 modules (0.249 sec), 93 tables (0.016 sec), 517 chunks (0.265 sec)
-mkiv lua stats  > traced context: maxstack: 1305, freed: 2, unreachable: 1303
+mkiv lua stats  > resource resolver: loadtime 0.008 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 25 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 410 modules (0.261 sec), 93 tables (0.015 sec), 503 chunks (0.276 sec)
+mkiv lua stats  > traced context: maxstack: 1293, freed: 2, unreachable: 1291
 mkiv lua stats  > cleaned up reserved nodes: 65 nodes, 9 lists of 455
-mkiv lua stats  > node memory usage: 4 glue, 2 kern, 3 penalty, 21 attribute, 50 glue_spec, 5 attribute_list, 2 temp, 2 user_defined, 4 pdf_setmatrix, 2 pdf_save, 2 pdf_restore
-mkiv lua stats  > node list callback tasks: 7 unique task lists, 8 instances (re)created, 719 calls
-mkiv lua stats  > h-node processing time: 0.030 seconds including kernel
+mkiv lua stats  > node memory usage: 2 glue, 2 kern, 3 penalty, 15 attribute, 50 glue_spec, 4 attribute_list, 2 temp, 2 user_defined, 4 pdf_setmatrix, 2 pdf_save, 2 pdf_restore
+mkiv lua stats  > node list callback tasks: 7 unique task lists, 8 instances (re)created, 726 calls
+mkiv lua stats  > h-node processing time: 0.027 seconds including kernel
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.005 seconds saving, 0.001 seconds loading
-mkiv lua stats  > callbacks: internal: 2368, file: 865, direct: 0, late: 0, function 0, total: 3233 (1617 per page)
+mkiv lua stats  > jobdata time: 0.003 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: 1554 direct, 859 indirect, 2413 total
 mkiv lua stats  > randomizer: resumed with value 0.84486394422129
 mkiv lua stats  > positions: 56 collected, 56 regular, 0 special
 mkiv lua stats  > loaded patterns: en::2, load time: 0.000
 mkiv lua stats  > interactive elements: 3 references, 9 destinations
 mkiv lua stats  > result saved in file: main.pdf, compresslevel 3, objectcompresslevel 3
-mkiv lua stats  > loaded fonts: 10 files: heebo-black.ttf, warnockpro-bolditdisp.otf, whitneyhtf-bold.otf, whitneyhtf-booksc.otf, whitneyhtf-light.otf, whitneyhtf-semibold.otf, texgyrepagella-math.otf, texgyrepagella-bold.otf, texgyrepagella-italic.otf, texgyrepagella-regular.otf
-mkiv lua stats  > font engine: otf 3.103, afm 1.513, tfm 1.000, 16 instances, 4 shared in backend, 3 common vectors, 1 common hashes, load time 0.282 seconds 
+mkiv lua stats  > loaded fonts: 12 files: firasans-medium.otf, heebo-black.ttf, whitneyhtf-bold.otf, whitneyhtf-booksc.otf, whitneyhtf-light.otf, whitneyhtf-semibold.otf, whitneyhtf-semibolditalic.otf, whitneyhtf-semiboldsc.otf, texgyrepagella-math.otf, texgyrepagella-bold.otf, texgyrepagella-italic.otf, texgyrepagella-regular.otf
+mkiv lua stats  > font engine: otf 3.103, afm 1.513, tfm 1.000, 15 instances, 1 shared in backend, 0 common vectors, 1 common hashes, load time 0.225 seconds 
 mkiv lua stats  > graphics processing time: 0.002 seconds including tex, 3 processed images, 1 unique asked, 0 bad names
 mkiv lua stats  > pdf annotations: 3 links (3 unique), 0 special
 mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: texmf-linux-64
-mkiv lua stats  > used engine: luatex version 1.07 with functionality level 6661, banner: this is luatex, version 1.07.0 (tex live 2018)
-mkiv lua stats  > control sequences: 47103 of 65536 + 100000
-mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 87 MB (ctx: 87 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.997 seconds, 3 processed pages, 3 shipped pages, 3.009 pages/second
+mkiv lua stats  > used engine: luatex version 1.07 with functionality level 6635, banner: this is luatex, version 1.07.0 (tex live 2018)
+mkiv lua stats  > control sequences: 47011 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 84 MB (ctx: 83 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 1.88 seconds, 4 processed pages, 4 shipped pages, 2.128 pages/second
 
