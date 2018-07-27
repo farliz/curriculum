@@ -4,7 +4,7 @@ utilitydata.comment={
  ["escape"]="[===[ ... ]===]",
  ["file"]="main",
  ["format"]="cont-en",
- ["stamp"]="2018.03.15 15:27",
+ ["stamp"]="2018.04.19 15:53",
  ["version"]=1.3,
 }
 
@@ -507,7 +507,7 @@ utilitydata.job.positions.collected={
   ["hs"]=35428918,
   ["p"]=1,
   ["x"]=1864679,
-  ["y"]=17460639,
+  ["y"]=16554197,
  },
  ["p:7"]={
   ["d"]=253803,
@@ -515,7 +515,7 @@ utilitydata.job.positions.collected={
   ["hs"]=35428918,
   ["p"]=1,
   ["x"]=1864679,
-  ["y"]=12021987,
+  ["y"]=11115545,
  },
  ["p:8"]={
   ["d"]=253803,
@@ -523,7 +523,7 @@ utilitydata.job.positions.collected={
   ["hs"]=35428918,
   ["p"]=1,
   ["x"]=1864679,
-  ["y"]=7489777,
+  ["y"]=6583335,
  },
  ["p:9"]={
   ["d"]=253803,
@@ -701,7 +701,7 @@ utilitydata.structures.lists.collected={
    ["realpage"]=1,
    ["section"]=0,
    ["x"]=1864679,
-   ["y"]=19019720,
+   ["y"]=18113278,
   },
   ["titledata"]={
    ["label"]="section",
