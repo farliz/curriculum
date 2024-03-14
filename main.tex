@@ -19,8 +19,8 @@
 
 
 \setuppapersize[A4][A4]
-%\setuppagenumbering[state=stop]
-\setupbodyfont[pagella, 11pt]
+\setuppagenumbering[state=stop]
+\setupbodyfont[cmr, 11pt]
 \usecolors[xwi]
 \definecolor[cdiez][x=969696]
 \usesymbols[fontawesome]
@@ -41,36 +41,36 @@ columns=3]
 
 % If you don't have some fonts, they can be replaced for your local fonts
 \definefont[GaraB][name:garamondpremrprobdsubh*default sa 1.3]
-\definefont[Skill][name:WhitneyHTF-BookSC*default sa 1.2]
+\definefont[Skill][name:whitneyhtfbooksc*default sa 1.2]
 \definefont[WhitneyB][name:whitneyhtfbold*default at 22pt]
 \definefont[HeeboBl][name:heeboblack*default sa 1.5]
-\definefont[Senes][name:WhitneyHTF-SemiBoldItalic*default sa 1]
-\definefont[Facultad][name:WhitneyHTF-SemiBold*default sa 1.2]
-\definefont[Body][name:WhitneyHTF-Light*default sa 1]
-\definefont[BodyB][name:WhitneyHTF-SemiBoldSC*default sa 1]
-\definefont[Mail][name:FiraSans-Medium*default sa 1]
+\definefont[Senes][name:whitneyhtfsemibolditalic*default sa 1]
+\definefont[Facultad][name:whitneyhtfsemibold*default sa 1.2]
+\definefont[Body][name:whitneyhtflight *default sa 1]
+\definefont[BodyB][name:whitneyhtfsemiboldsc*default sa 1]
+\definefont[Mail][name:firasansmedium*default sa 1]
 \definefont[titleb][name:whitneyhtfbold*default sa 1.1]
 
 \setuphead[subject][style=\HeeboBl]
 
 \setupinteraction[state=start, color=darkblue]
-\useURL[me][lreyna@utm.edu.ec]
+\useURL[me][lizardo.reyna@utm.edu.ec]
 \useURL[mee][reyna.utm@gmail.com]
 \setupurl[color=darkslateblue, style=\Mail]
 
-\setupfootertexts[\Body Abril 2020][\Body Lizardo Reyna~\cdot~Curriculum Vitae]
+\setupfootertexts[\Body Marzo 2024][\Body Lizardo Reyna~\cdot~Curriculum Vitae]
 
 \setuppagenumbering[location={lower,middle}, style=\Body]
 
 \starttext
 
-    \startTABLE[[background=color, frame=off]
-    \bTABLE
-    \bTR \bTD[align=right,width=14cm ]
-      {\WhitneyB Lizardo Mauricio Reyna Bowen}\\
-  \color[darkgray]{\Skill   Física de suelos~\cdot~Geoinformación}
+    \startTABLE[background=color, frame=off]
+      \bTABLE
+      \bTR \bTD[align=right,width=14cm ]
+       {\WhitneyB Lizardo Mauricio Reyna Bowen}\\
+       \color[darkgray]{\Skill   Física de suelos~\cdot~Geoinformación}
   
-  \color[darkgray] {\Facultad Facultad de Ingeniería Agrícola, Universidad Técnica de Manabí}
+       \color[darkgray] {\Facultad Facultad de Ingeniería Agrícola, Universidad Técnica de Manabí}
 
        \symbol[fontawesome][envelope] {\from[me] \|  \symbol[fontawesome][envelope] \from[mee] \| \symbol[fontawesome][mobile] {\Mail +593 982924637}}
         \eTD
@@ -78,13 +78,13 @@ columns=3]
     \eTABLE
   \stopTABLE
 
-  %\blank[2*big]
+  \blank[2*big]
 
-  \startTABLE[[background=color, frame=off]
+  \startTABLE[background=color, frame=off]
     \bTABLE
     \bTR 
         \bTD {\em 
-Doctor en ciencias de la Agronomía con más de ocho años de experiencia en docencia e
+Doctor en ciencias de la Agronomía con más de diez años de experiencia en docencia e
 investigación científica. Utilizo sistemas de información geográfica, teledetección y
 espectroscopía para el estudio de los suelos y la vegetación. Promuevo el uso de software
 libre para el análisis de datos, preparación de documentos de texto y
@@ -181,7 +181,11 @@ Técnico de campo, Manabí\\
 %%%%%%%%%%%%%%%%% Investigación %%%%%%%%%%%%%%%%%%%%
 \subject{Proyectos de \color[darkgray]{investigación}\thinrule}
      
-    \startitemize[packed]
+\startitemize[packed]
+
+      \item Uso de tecnología de visualización 3D y paisaje táctil para el
+    estudio de la cuenca del río Portoviejo. Universidad Técnica de
+    Manabí, 2019.
         \item Estudio Multitemporal del área cultivada de arroz y maíz en el valle del Río
           Portoviejo. Universidad Técnica de Manabí, 2012. 
         \item Impacto del sistema del cultivo de arroz ({\em Oriza sativa}) sobre las propiedades
@@ -190,39 +194,41 @@ Técnico de campo, Manabí\\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%% Tesis dirigidas %%%%%%%%%%%%%%%%%%
-\subject{Tesis \color[darkgray]{dirigidas}\thinrule}
+    %%%%%%%%%%%%%%%%% Tesis dirigidas %%%%%%%%%%%%%%%%%%
 
-        {\titleb Pregrado:}
-\Body       
-\startitemize[packed]
-  \item Evaluación de los modelos digitales de terreno SRTM y AsterGDEM para la extracción
-    de cuencas hidrográficas en el valle del río Portoviejo. Universidad Técnica de Manabí,
-    2018.
-  \item Análisis de la variabilidad espacial de la
-    compactación de suelo en una parcela experimental del
-    Campus Lodana, Universidad Técnica de Manabí, 2018
     
-  \item Calibración de número de curva para el cálculo de abstracciones en condiciones de
-    clima tropical. Pontificia Universidad Católica del Ecuador. Portoviejo, 2013. 
-  \item Caracterización hidrológica de la cuenca del río Garrapata utilizando modelos de
-    elevación digital.  Pontificia Universidad Católica del Ecuador. Portoviejo, 2013. 
-  \item Elaboración de un sistema de información geográfico para la gestión del cultivo de
-    arroz en la comunidades de San Bartolo y Bebedero, Cantón Sucre, Provincia de
-    Manabí. Universidad Técnica de Manabí, 2013.
-            
-    \stopitemize
+% \subject{Tesis \color[darkgray]{dirigidas}\thinrule}
 
-  {\titleb Maestría:}
+%         {\titleb Pregrado:}
+% \Body       
+% \startitemize[packed]
+%   \item Evaluación de los modelos digitales de terreno SRTM y AsterGDEM para la extracción
+%     de cuencas hidrográficas en el valle del río Portoviejo. Universidad Técnica de Manabí,
+%     2018.
+%   \item Análisis de la variabilidad espacial de la
+%     compactación de suelo en una parcela experimental del
+%     Campus Lodana, Universidad Técnica de Manabí, 2018
+    
+%   \item Calibración de número de curva para el cálculo de abstracciones en condiciones de
+%     clima tropical. Pontificia Universidad Católica del Ecuador. Portoviejo, 2013. 
+%   \item Caracterización hidrológica de la cuenca del río Garrapata utilizando modelos de
+%     elevación digital.  Pontificia Universidad Católica del Ecuador. Portoviejo, 2013. 
+%   \item Elaboración de un sistema de información geográfico para la gestión del cultivo de
+%     arroz en la comunidades de San Bartolo y Bebedero, Cantón Sucre, Provincia de
+%     Manabí. Universidad Técnica de Manabí, 2013.
+            
+%     \stopitemize
+
+%   {\titleb Maestría:}
   
-\startitemize[packed]
-\item Impacto del sistema del cultivo de arroz sobre las propiedades físicas y carbono orgánico
-  del suelo en la zona arrocera de Charapotó. Maestría en Ingeniería Agrícola,  Universidad Técnica de Manabí, 2018 .
-\item Impacto de la mecanización en el cultivo de arroz sobre las propiedades físcas del
-  suelo en la parroquia Charapotó. Maestría en Ingeniería Agrícola,  Universidad Técnica de Manabí, 2018.
-\item Zonificación de suelos cultivados con Banano afectados por la acidez. Maestría en Ingeniería Agrícola, Universidad
-  Técnica de Manabí, 2018.
-\stopitemize
+% \startitemize[packed]
+% \item Impacto del sistema del cultivo de arroz sobre las propiedades físicas y carbono orgánico
+%   del suelo en la zona arrocera de Charapotó. Maestría en Ingeniería Agrícola,  Universidad Técnica de Manabí, 2018 .
+% \item Impacto de la mecanización en el cultivo de arroz sobre las propiedades físcas del
+%   suelo en la parroquia Charapotó. Maestría en Ingeniería Agrícola,  Universidad Técnica de Manabí, 2018.
+% \item Zonificación de suelos cultivados con Banano afectados por la acidez. Maestría en Ingeniería Agrícola, Universidad
+%   Técnica de Manabí, 2018.
+% \stopitemize
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -234,7 +240,14 @@ Técnico de campo, Manabí\\
        
         \startitemize[n, packed]
 
-        \item Reyna-Bowen L, Vera-Montenegro L, {\bf Reyna L.}
+        \item {\BodyB Reyna, L.}; Lasota, J.; Reyna-Bowen, L.; Vera-Montenegro,
+          L.; Vega-Ponce, E.C.; Izaguirre-Mayoral, M.L.; Błońska, E. A
+          New Approach to Monitor Soil Microbial Driven C/N Ratio in
+          Temperate Evergreen Coniferous Forests Managed via
+          Sentinel-2 Spectral Imagery. Land 2023, 12,
+          284. \goto{https://doi.org/10.3390/land12020284}[url(https://doi.org/10.3390/land12020284)]
+
+        \item Reyna-Bowen L, Vera-Montenegro L, {\BodyB Reyna L.}
           Soil-Organic-Carbon Concentration and Storage under
           Different Land Uses in the Carrizal-Chone Valley in
           Ecuador. {\it Applied Sciences}. 2019;
@@ -279,18 +292,18 @@ Técnico de campo, Manabí\\
       
    \stopitemize
 
-     {\titleb Libros:}
+%      {\titleb Libros:}
 
-     \startitemize[n, packed, continue]
+%      \startitemize[n, packed, continue]
 
-     \item Sustentabilidad de los sistemas agrpecuarios del Carrizal-Chone. Editorial Académica Española\\
-       ISBN-13 978-620-2-12596-3, 2018.
+%      \item Sustentabilidad de los sistemas agrpecuarios del Carrizal-Chone. Editorial Académica Española\\
+%        ISBN-13 978-620-2-12596-3, 2018.
 
-     \item Desarrollo y Ordenamiento Territorial Estudio de Caso Ecuador, Editorial Académica Española\\
-       ISBN-13: 978-3-8484-6175-2. 2014.
-     \item Estudio Biofísico de la Cuenca Khora Tiquipaya, Editorial Académica Española,
-       ISBN-13: 978-3-659-05060-2, 2014.
-  \stopitemize
+%      \item Desarrollo y Ordenamiento Territorial Estudio de Caso Ecuador, Editorial Académica Española\\
+%        ISBN-13: 978-3-8484-6175-2. 2014.
+%      \item Estudio Biofísico de la Cuenca Khora Tiquipaya, Editorial Académica Española,
+%        ISBN-13: 978-3-659-05060-2, 2014.
+%   \stopitemize
 
 
     {\titleb Otras publicaciones:}
@@ -319,6 +332,10 @@ Técnico de campo, Manabí\\
 \subject{Cursos \color[darkgray]{realizados}\thinrule}
 
 \startitemize[packed]
+  \item Curso sobre Ecología Espacial, Instituto GULICH (Argentina),
+    del 15 de mayo al 26 de junio de 2023.
+  \item Curso sobre Análisis Espacial, Instituto GULICH (Argentina),
+    del 13 al 29 de septiembre de 2021.
   \item Linear Regression with Nunpy and Python. Coursera (online), Abril 2020.
   \item Curso de Agricultura de precisión mediante DRON EBEE SQ y Procesamiento con
     PIX4D. EsinteGeo s.a. julio 2019 (30 horas).
@@ -382,6 +399,8 @@ Técnico de campo, Manabí\\
 
 
    \startitemize[packed]
+     \item Decano de la Facultad de Ingeniería Agrícola de la
+       Universidasd Técnica de Manabí, 2022-presente.
   \item Coodinador del Departamento de Ciencas Agrícolas. Universidad Técnica de Manabí, 2018.
   \item    Reconocimiento por haber culminado los estudios doctorales. Colegio Regional de Ingenieros Agrícolas
      del Litoral. Portoviejo, 2018.
@@ -391,20 +410,20 @@ Técnico de campo, Manabí\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%% Otras %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-   \subject{Otras \color[darkgray]{actividades}\thinrule}
+   % \subject{Otras \color[darkgray]{actividades}\thinrule}
 
-   \startitemize[packed]
-       \item  Evento científico  Científicos en la Rotonda, Portoviejo, Noviembre 2017.
-      % \item  Editor de la revista International Journal of College and University, 2017.
-       \item  Evento de difusión científica.  Feria Nacional de Ciencia y Tecnología. Quito, Diciembre 2009.
-       \stopitemize
+   % \startitemize[packed]
+   %     \item  Evento científico  Científicos en la Rotonda, Portoviejo, Noviembre 2017.
+   %    % \item  Editor de la revista International Journal of College and University, 2017.
+   %     \item  Evento de difusión científica.  Feria Nacional de Ciencia y Tecnología. Quito, Diciembre 2009.
+   %     \stopitemize
 
        
  \vfill     
  \switchtobodyfont[termes, 9pt]
  
  \startalignment[left]
- \color[darkgray]{ \CONTEXT ~~ \contextversion}\\
+  \color[darkgray]{ \CONTEXT ~~ \contextversion}\\
   \color[darkgray]{GNU/Linux}
 \stopalignment
 
